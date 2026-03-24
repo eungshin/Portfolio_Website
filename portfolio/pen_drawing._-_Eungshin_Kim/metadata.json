@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-6",
+  "name": "pen drawing.",
+  "url": "https://www.behance.net/gallery/118751763/pen-drawing",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Pen on Paper",
+    "artisticStyle": "Traditional Drawing / Pen and Ink",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Pen",
+      "Sketchbook"
+    ]
+  },
+  "curatorsInsight": "A collection of pen drawings demonstrating the artist's foundational skills in traditional media. The raw, direct quality of pen work reveals confident linework and observational ability.",
+  "historicalNarrative": "These pen drawings represent Eungshin Kim's traditional art foundation, showing the hand-drawn craftsmanship that underlies the artist's digital work. Pen drawing remains a core practice for many illustrators as a way to maintain direct artistic expression.",
+  "genre": [
+    "Illustration"
+  ],
+  "keywords": [
+    "animals",
+    "art",
+    "artist",
+    "artwork",
+    "Hedgehog",
+    "ILLUSTRATION",
+    "pendrawing",
+    "sketch"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "pen drawing. - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "pen drawing. - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "pen drawing. - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "pen drawing. - Image 4"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/15aca2118751763.608fecc801e6f.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:46:15.217Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

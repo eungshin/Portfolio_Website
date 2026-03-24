@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-3",
+  "name": "Art Brand poster_Rabbit&Snake",
+  "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Digital (Mixed)",
+    "artisticStyle": "Art Brand / Commercial Illustration",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Photoshop",
+      "Product Design"
+    ]
+  },
+  "curatorsInsight": "An art brand poster series featuring rabbit and snake characters, blending fine art sensibility with commercial design. The contrasting animal subjects create visual tension and narrative depth.",
+  "historicalNarrative": "This series represents the intersection of Eungshin Kim's illustration practice with brand design, using animal symbolism to create memorable commercial artwork.",
+  "genre": [
+    "Graphic Design",
+    "Illustration",
+    "Product Design"
+  ],
+  "keywords": [
+    "art",
+    "botanical",
+    "botanical art",
+    "botanical illustration",
+    "Drawing",
+    "ILLUSTRATION",
+    "Nature",
+    "rabbit"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 4"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_005.jpg",
+      "position": 5,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 5"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_006.jpg",
+      "position": 6,
+      "encodingFormat": "image/jpeg",
+      "name": "Art Brand poster_Rabbit&Snake - Image 6"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/88cea9153594701.6332cd393b304.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:45:44.685Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

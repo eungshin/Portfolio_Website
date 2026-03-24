@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-1",
+  "name": "Elephant",
+  "url": "https://www.behance.net/gallery/154889753/Elephant",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Digital (Adobe Illustrator)",
+    "artisticStyle": "Digital Illustration",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": []
+  },
+  "curatorsInsight": "A detailed digital illustration of an elephant, showcasing the artist's ability to blend realism with digital art techniques. The piece demonstrates mastery of form and texture in digital medium.",
+  "historicalNarrative": "Part of Eungshin Kim's illustration portfolio, this work reflects the artist's fascination with animal subjects rendered through digital tools. The illustration style bridges traditional drawing sensibilities with modern digital techniques.",
+  "genre": [
+    "Illustration",
+    "Graphic Design"
+  ],
+  "keywords": [
+    "adobe illustrator",
+    "art",
+    "artwork",
+    "Digital Art",
+    "digital illustration",
+    "Drawing",
+    "ILLUSTRATION",
+    "indoor",
+    "sketch"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Elephant - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Elephant - Image 2"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/4d23c1154889753.634a59f9ba91e.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:45:22.580Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

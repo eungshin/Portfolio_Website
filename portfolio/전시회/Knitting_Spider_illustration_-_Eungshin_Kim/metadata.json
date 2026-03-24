@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-8",
+  "name": "Knitting Spider illustration",
+  "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Digital Illustration",
+    "artisticStyle": "Character Illustration / Narrative Art",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Photoshop"
+    ]
+  },
+  "curatorsInsight": "An imaginative illustration of a knitting spider, transforming a typically feared creature into a charming, industrious character. The concept plays on the natural web-spinning ability of spiders reimagined as knitting.",
+  "historicalNarrative": "This illustration exemplifies Eungshin Kim's ability to find whimsy in nature, anthropomorphizing a spider into a relatable character through the metaphor of knitting—a clever visual narrative that bridges the natural and domestic worlds.",
+  "genre": [
+    "Illustration"
+  ],
+  "keywords": [
+    "Exhibition",
+    "Installation Art",
+    "Korea",
+    "korean",
+    "post art",
+    "seoul",
+    "spider illustration",
+    "spiderman"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Knitting Spider illustration - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Knitting Spider illustration - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Knitting Spider illustration - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Knitting Spider illustration - Image 4"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_005.jpg",
+      "position": 5,
+      "encodingFormat": "image/jpeg",
+      "name": "Knitting Spider illustration - Image 5"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/5244e9113430167.602793d85d853.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:46:34.893Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

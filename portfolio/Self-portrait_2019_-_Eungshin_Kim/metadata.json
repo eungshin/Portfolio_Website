@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-7",
+  "name": "Self-portrait 2019",
+  "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Mixed Media",
+    "artisticStyle": "Portrait / Expressive Illustration",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Books",
+      "Collage",
+      "Canvas",
+      "Art Direction",
+      "Exhibition Design"
+    ]
+  },
+  "curatorsInsight": "A self-portrait from 2019 that offers an intimate glimpse into the artist's self-perception and artistic identity. Self-portraiture serves as both practice and personal expression.",
+  "historicalNarrative": "Created in 2019, this self-portrait is part of the long tradition of artists documenting themselves. For Eungshin Kim, it marks a personal artistic milestone, capturing both technical skill and emotional depth.",
+  "genre": [
+    "Art Direction",
+    "Collage",
+    "Exhibition Design"
+  ],
+  "keywords": [
+    "art",
+    "canvas",
+    "collage",
+    "color",
+    "digital",
+    "FINEART",
+    "Nature",
+    "portrait",
+    "vintage"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Self-portrait 2019 - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Self-portrait 2019 - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Self-portrait 2019 - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Self-portrait 2019 - Image 4"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/1e45a7113434309.6027ae8d61e4a.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:46:25.082Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

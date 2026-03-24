@@ -1,0 +1,133 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork"
+  },
+  "@type": "CollectionPage",
+  "name": "Eungshin Kim - Complete Portfolio Collection",
+  "description": "AI-readable ontology-structured portfolio archive extracted from Behance",
+  "url": "https://www.behance.net/eungshin",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "numberOfItems": 12,
+  "totalImages": 69,
+  "hasPart": [
+    {
+      "@type": "VisualArtwork",
+      "name": "#1000POTS_Harvest Mouse",
+      "url": "https://www.behance.net/gallery/128331145/1000POTS_Harvest-Mouse",
+      "identifier": "behance-eungshin-4",
+      "artisticStyle": "Product Illustration / Character Design",
+      "medium": "Digital Illustration",
+      "imageCount": 8
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Animals - a cat with flowerpots",
+      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
+      "identifier": "behance-eungshin-9",
+      "artisticStyle": "Illustration Series / Animal Art",
+      "medium": "Digital Illustration",
+      "imageCount": 11
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Art Brand poster_Rabbit&Snake",
+      "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
+      "identifier": "behance-eungshin-3",
+      "artisticStyle": "Art Brand / Commercial Illustration",
+      "medium": "Digital (Mixed)",
+      "imageCount": 6
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Brand shop poster: Snake and Gummy bear",
+      "url": "https://www.behance.net/gallery/153595829/Brand-shop-poster-Snake-and-Gummy-bear",
+      "identifier": "behance-eungshin-2",
+      "artisticStyle": "Brand Design / Commercial Illustration",
+      "medium": "Digital (Mixed)",
+      "imageCount": 4
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Character design GOBUGI_ look at me",
+      "url": "https://www.behance.net/gallery/114722175/Character-design-GOBUGI_-look-at-me",
+      "identifier": "behance-eungshin-10",
+      "artisticStyle": "Character Design",
+      "medium": "Digital Illustration",
+      "imageCount": 4
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Children's book \"Camang and Friends\"",
+      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
+      "identifier": "behance-eungshin-11",
+      "artisticStyle": "Children's Book Illustration",
+      "medium": "Digital (Photoshop, InDesign)",
+      "imageCount": 12
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Elephant",
+      "url": "https://www.behance.net/gallery/154889753/Elephant",
+      "identifier": "behance-eungshin-1",
+      "artisticStyle": "Digital Illustration",
+      "medium": "Digital (Adobe Illustrator)",
+      "imageCount": 2
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Exchanging my talents for traveling in Ireland.",
+      "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
+      "identifier": "behance-eungshin-12",
+      "artisticStyle": "Travel Illustration / Documentary Art",
+      "medium": "Mixed Media (Digital and Traditional)",
+      "imageCount": 8
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Knitting Spider illustration",
+      "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
+      "identifier": "behance-eungshin-8",
+      "artisticStyle": "Character Illustration / Narrative Art",
+      "medium": "Digital Illustration",
+      "imageCount": 5
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Nature pattern rabbit",
+      "url": "https://www.behance.net/gallery/124089971/Nature-pattern-rabbit",
+      "identifier": "behance-eungshin-5",
+      "artisticStyle": "Pattern Design / Illustration",
+      "medium": "Digital",
+      "imageCount": 1
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "pen drawing.",
+      "url": "https://www.behance.net/gallery/118751763/pen-drawing",
+      "identifier": "behance-eungshin-6",
+      "artisticStyle": "Traditional Drawing / Pen and Ink",
+      "medium": "Pen on Paper",
+      "imageCount": 4
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Self-portrait 2019",
+      "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
+      "identifier": "behance-eungshin-7",
+      "artisticStyle": "Portrait / Expressive Illustration",
+      "medium": "Mixed Media",
+      "imageCount": 4
+    }
+  ],
+  "dateExtracted": "2026-03-22T16:49:02.749Z"
+}

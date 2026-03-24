@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-12",
+  "name": "Exchanging my talents for traveling in Ireland.",
+  "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Mixed Media (Digital and Traditional)",
+    "artisticStyle": "Travel Illustration / Documentary Art",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Photoshop",
+      "Advertising"
+    ]
+  },
+  "curatorsInsight": "A travel illustration project documenting the artist's experience of exchanging creative talents for travel opportunities in Ireland. This project uniquely combines personal narrative with illustration.",
+  "historicalNarrative": "This project documents Eungshin Kim's real-life experience of using artistic skills as a form of currency while traveling in Ireland. It represents the intersection of art and life, demonstrating how creative talents can open doors to cultural exchange and adventure.",
+  "genre": [
+    "Graphic Design",
+    "Illustration",
+    "Advertising"
+  ],
+  "keywords": [
+    "art",
+    "artwork",
+    "DIGITALDRAWING",
+    "Drawing",
+    "Ireland",
+    "Project",
+    "Website",
+    "Window",
+    "traveling"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.png",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 4"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_005.jpg",
+      "position": 5,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 5"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_006.jpg",
+      "position": 6,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 6"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_007.jpg",
+      "position": 7,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 7"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_008.jpg",
+      "position": 8,
+      "encodingFormat": "image/jpeg",
+      "name": "Exchanging my talents for traveling in Ireland. - Image 8"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/0e9f5f112683413.6019449021955.png",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:47:25.151Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}
