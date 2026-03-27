@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-2",
+  "name": "Brand shop poster: Snake and Gummy bear",
+  "url": "https://www.behance.net/gallery/153595829/Brand-shop-poster-Snake-and-Gummy-bear",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Digital (Mixed)",
+    "artisticStyle": "Brand Design / Commercial Illustration",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Product Design"
+    ]
+  },
+  "curatorsInsight": "A creative brand shop poster combining the unlikely pairing of snakes and gummy bears, demonstrating the artist's versatility in commercial illustration and brand identity design.",
+  "historicalNarrative": "This project showcases Eungshin Kim's commercial design capabilities, creating playful brand imagery that merges animal motifs with product design aesthetics.",
+  "genre": [
+    "Graphic Design",
+    "Illustration",
+    "Product Design"
+  ],
+  "keywords": [
+    "animals",
+    "botanic",
+    "botanical art",
+    "botanical illustration",
+    "children",
+    "Nature",
+    "poster",
+    "Poster Design",
+    "snake"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Brand shop poster: Snake and Gummy bear - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Brand shop poster: Snake and Gummy bear - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Brand shop poster: Snake and Gummy bear - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Brand shop poster: Snake and Gummy bear - Image 4"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/aed851153595829.6332d0e600fa2.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:45:33.890Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="dash-header">
+    <h1 class="dash-header__title">Portfolio Dashboard</h1>
+    <div class="dash-header__actions">
+      <span class="dash-dirty-badge" id="dirtyBadge" hidden>Unsaved Changes</span>
+      <button class="dash-btn dash-btn--secondary" id="previewBtn">Preview Site</button>
+      <button class="dash-btn dash-btn--primary" id="saveBtn">Save All</button>
+    </div>
+  </header>
+
+  <!-- Settings -->
+  <section class="dash-section">
+    <h2 class="dash-section__title">Settings</h2>
+    <div class="dash-settings">
+      <label class="dash-label">
+        Card Count (projects shown on wheel)
+        <input type="number" id="cardCountInput" class="dash-input dash-input--sm" min="1" max="30" />
+      </label>
+    </div>
+  </section>
+
+  <!-- Project List -->
+  <section class="dash-section">
+    <div class="dash-section__header">
+      <h2 class="dash-section__title">Projects</h2>
+      <button class="dash-btn dash-btn--secondary" id="addProjectBtn">+ Add Project</button>
+    </div>
+    <p class="dash-hint">Drag projects to reorder. Click Edit to manage images and metadata.</p>
+    <div class="dash-project-list" id="projectList">
+      <!-- Rendered by JS -->
+    </div>
+  </section>
+
+  <!-- Project Editor (shown when editing a project) -->
+  <section class="dash-section dash-editor" id="editorSection" hidden>
+    <div class="dash-editor__header">
+      <h2 class="dash-section__title" id="editorTitle">Edit Project</h2>
+      <button class="dash-btn dash-btn--ghost" id="editorClose">Close</button>
+    </div>
+
+    <!-- Metadata Fields -->
+    <div class="dash-editor__fields">
+      <label class="dash-label">
+        Project Title
+        <input type="text" id="editName" class="dash-input" />
+      </label>
+      <div class="dash-row">
+        <label class="dash-label dash-flex1">
+          Artistic Style
+          <input type="text" id="editStyle" class="dash-input" />
+        </label>
+        <label class="dash-label dash-flex1">
+          Medium
+          <input type="text" id="editMedium" class="dash-input" />
+        </label>
+      </div>
+      <div class="dash-row">
+        <label class="dash-label dash-flex1">
+          Creation Date
+          <input type="text" id="editDate" class="dash-input" />
+        </label>
+        <label class="dash-label dash-flex1">
+          Folder Name
+          <input type="text" id="editFolder" class="dash-input" disabled />
+        </label>
+      </div>
+      <label class="dash-label">
+        Curator's Insight
+        <textarea id="editInsight" class="dash-input dash-textarea" rows="4"></textarea>
+      </label>
+    </div>
+
+    <!-- Main Thumbnail -->
+    <div class="dash-editor__thumb-section">
+      <h3 class="dash-subsection-title">Main Thumbnail</h3>
+      <div class="dash-thumb-preview" id="thumbPreview">
+        <img id="thumbImg" src="" alt="Thumbnail" />
+      </div>
+      <label class="dash-btn dash-btn--secondary dash-upload-label">
+        Change Thumbnail
+        <input type="file" id="thumbUpload" accept="image/*" hidden />
+      </label>
+    </div>
+
+    <!-- Image Grid -->
+    <div class="dash-editor__images">
+      <div class="dash-images-header">
+        <h3 class="dash-subsection-title">Project Images</h3>
+        <label class="dash-btn dash-btn--secondary dash-upload-label">
+          + Upload Images
+          <input type="file" id="imageUpload" accept="image/*,video/mp4" multiple hidden />
+        </label>
+      </div>
+      <p class="dash-hint">Drag images to reorder. Click X to remove (moved to trash).</p>
+      <div class="dash-image-grid" id="imageGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- New Project Modal -->
+  <div class="dash-modal-overlay" id="newProjectModal" hidden>
+    <div class="dash-modal">
+      <h3 class="dash-modal__title">Create New Project</h3>
+      <label class="dash-label">
+        Folder Name (no spaces, English only)
+        <input type="text" id="newFolder" class="dash-input" placeholder="my_new_project" />
+      </label>
+      <label class="dash-label">
+        Project Title
+        <input type="text" id="newName" class="dash-input" placeholder="My New Project" />
+      </label>
+      <div class="dash-modal__actions">
+        <button class="dash-btn dash-btn--ghost" id="newProjectCancel">Cancel</button>
+        <button class="dash-btn dash-btn--primary" id="newProjectCreate">Create</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confirm Delete Modal -->
+  <div class="dash-modal-overlay" id="deleteModal" hidden>
+    <div class="dash-modal">
+      <h3 class="dash-modal__title">Confirm Delete</h3>
+      <p class="dash-modal__text" id="deleteModalText">Are you sure?</p>
+      <div class="dash-modal__actions">
+        <button class="dash-btn dash-btn--ghost" id="deleteCancel">Cancel</button>
+        <button class="dash-btn dash-btn--danger" id="deleteConfirm">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="dash-toast" id="toast" hidden></div>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

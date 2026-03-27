@@ -5,7 +5,7 @@
   },
   "@type": "CollectionPage",
   "name": "Eungshin Kim - Complete Portfolio Collection",
-  "description": "AI-readable ontology-structured portfolio archive extracted from Behance",
+  "description": "Portfolio archive",
   "url": "https://www.behance.net/eungshin",
   "creator": {
     "@type": "Person",
@@ -17,117 +17,130 @@
       "addressCountry": "KR"
     }
   },
-  "numberOfItems": 12,
-  "totalImages": 69,
+  "numberOfItems": 11,
+  "cardCount": 11,
   "hasPart": [
     {
       "@type": "VisualArtwork",
-      "name": "#1000POTS_Harvest Mouse",
-      "url": "https://www.behance.net/gallery/128331145/1000POTS_Harvest-Mouse",
-      "identifier": "behance-eungshin-4",
-      "artisticStyle": "Product Illustration / Character Design",
-      "medium": "Digital Illustration",
-      "imageCount": 8
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Animals - a cat with flowerpots",
-      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
-      "identifier": "behance-eungshin-9",
-      "artisticStyle": "Illustration Series / Animal Art",
-      "medium": "Digital Illustration",
+      "name": "Children's book \"Camang and Friends\"",
+      "folder": "Camang_and_friends",
+      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
+      "artisticStyle": "Children's Book Illustration",
+      "medium": "Digital (Photoshop, InDesign)",
+      "creationDate": "N/A",
+      "insight": "A complete children's book project titled \"Camang and Friends,\" featuring 12 illustrations that tell a cohesive story. This represents the artist's most comprehensive narrative project, demonstrating both illustration and book design skills.",
       "imageCount": 11
     },
     {
       "@type": "VisualArtwork",
+      "name": "Animals - a cat with flowerpots",
+      "folder": "Exhibition",
+      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
+      "artisticStyle": "Illustration Series / Animal Art",
+      "medium": "Digital Illustration",
+      "creationDate": "N/A",
+      "insight": "An extensive series depicting cats among flowerpots, combining the artist's love of animals with botanical elements. The 11-image series demonstrates consistent character design across multiple compositions.",
+      "imageCount": 7
+    },
+    {
+      "@type": "VisualArtwork",
       "name": "Art Brand poster_Rabbit&Snake",
+      "folder": "포스터작업",
       "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
-      "identifier": "behance-eungshin-3",
       "artisticStyle": "Art Brand / Commercial Illustration",
       "medium": "Digital (Mixed)",
-      "imageCount": 6
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Brand shop poster: Snake and Gummy bear",
-      "url": "https://www.behance.net/gallery/153595829/Brand-shop-poster-Snake-and-Gummy-bear",
-      "identifier": "behance-eungshin-2",
-      "artisticStyle": "Brand Design / Commercial Illustration",
-      "medium": "Digital (Mixed)",
-      "imageCount": 4
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Character design GOBUGI_ look at me",
-      "url": "https://www.behance.net/gallery/114722175/Character-design-GOBUGI_-look-at-me",
-      "identifier": "behance-eungshin-10",
-      "artisticStyle": "Character Design",
-      "medium": "Digital Illustration",
-      "imageCount": 4
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Children's book \"Camang and Friends\"",
-      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
-      "identifier": "behance-eungshin-11",
-      "artisticStyle": "Children's Book Illustration",
-      "medium": "Digital (Photoshop, InDesign)",
+      "creationDate": "N/A",
+      "insight": "An art brand poster series featuring rabbit and snake characters, blending fine art sensibility with commercial design. The contrasting animal subjects create visual tension and narrative depth.",
       "imageCount": 12
     },
     {
       "@type": "VisualArtwork",
-      "name": "Elephant",
-      "url": "https://www.behance.net/gallery/154889753/Elephant",
-      "identifier": "behance-eungshin-1",
-      "artisticStyle": "Digital Illustration",
-      "medium": "Digital (Adobe Illustrator)",
-      "imageCount": 2
-    },
-    {
-      "@type": "VisualArtwork",
       "name": "Exchanging my talents for traveling in Ireland.",
+      "folder": "Ireland",
       "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
-      "identifier": "behance-eungshin-12",
       "artisticStyle": "Travel Illustration / Documentary Art",
       "medium": "Mixed Media (Digital and Traditional)",
-      "imageCount": 8
+      "creationDate": "N/A",
+      "insight": "A travel illustration project documenting the artist's experience of exchanging creative talents for travel opportunities in Ireland. This project uniquely combines personal narrative with illustration.",
+      "imageCount": 7
     },
     {
       "@type": "VisualArtwork",
       "name": "Knitting Spider illustration",
+      "folder": "Knitting_Spider_illustration_-_Eungshin_Kim",
       "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
-      "identifier": "behance-eungshin-8",
       "artisticStyle": "Character Illustration / Narrative Art",
       "medium": "Digital Illustration",
-      "imageCount": 5
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Nature pattern rabbit",
-      "url": "https://www.behance.net/gallery/124089971/Nature-pattern-rabbit",
-      "identifier": "behance-eungshin-5",
-      "artisticStyle": "Pattern Design / Illustration",
-      "medium": "Digital",
-      "imageCount": 1
+      "creationDate": "N/A",
+      "insight": "An imaginative illustration of a knitting spider, transforming a typically feared creature into a charming, industrious character. The concept plays on the natural web-spinning ability of spiders reimagined as knitting.",
+      "imageCount": 2
     },
     {
       "@type": "VisualArtwork",
       "name": "pen drawing.",
+      "folder": "pen_drawing._-_Eungshin_Kim",
       "url": "https://www.behance.net/gallery/118751763/pen-drawing",
-      "identifier": "behance-eungshin-6",
       "artisticStyle": "Traditional Drawing / Pen and Ink",
       "medium": "Pen on Paper",
-      "imageCount": 4
+      "creationDate": "N/A",
+      "insight": "A collection of pen drawings demonstrating the artist's foundational skills in traditional media. The raw, direct quality of pen work reveals confident linework and observational ability.",
+      "imageCount": 3
     },
     {
       "@type": "VisualArtwork",
       "name": "Self-portrait 2019",
+      "folder": "Self-portrait_2019_-_Eungshin_Kim",
       "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
-      "identifier": "behance-eungshin-7",
       "artisticStyle": "Portrait / Expressive Illustration",
       "medium": "Mixed Media",
-      "imageCount": 4
+      "creationDate": "N/A",
+      "insight": "A self-portrait from 2019 that offers an intimate glimpse into the artist's self-perception and artistic identity. Self-portraiture serves as both practice and personal expression.",
+      "imageCount": 3
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Blue Dog",
+      "folder": "파란개",
+      "url": "",
+      "artisticStyle": "Character Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "A character study of a blue dog, exploring form and expression through a series of illustrations.",
+      "imageCount": 10
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Random Pots",
+      "folder": "random_pots",
+      "url": "",
+      "artisticStyle": "Product Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "A playful exploration of ceramic pot designs with character and personality.",
+      "imageCount": 5
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Flower Illustration",
+      "folder": "2025_flower",
+      "url": "",
+      "artisticStyle": "Botanical Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2025",
+      "insight": "A collection of flower illustrations exploring form, color, and natural beauty.",
+      "imageCount": 15
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Animated Nature Series",
+      "folder": "2025_animated",
+      "url": "",
+      "artisticStyle": "Animation / Nature Art",
+      "medium": "Digital Animation",
+      "creationDate": "2025",
+      "insight": "An animated series bringing natural scenes to life through motion and color.",
+      "imageCount": 5
     }
   ],
-  "dateExtracted": "2026-03-22T16:49:02.749Z"
+  "dateExtracted": "2026-03-26T11:10:51.598Z"
 }

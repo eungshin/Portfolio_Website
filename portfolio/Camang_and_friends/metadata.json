@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "art": "https://schema.org/VisualArtwork",
+    "provenance": "https://schema.org/itemCondition"
+  },
+  "@type": "VisualArtwork",
+  "identifier": "behance-eungshin-11",
+  "name": "Children's book \"Camang and Friends\"",
+  "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
+  "creator": {
+    "@type": "Person",
+    "name": "Eungshin Kim",
+    "url": "https://www.behance.net/eungshin",
+    "jobTitle": "Illustrator, Content Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "addressCountry": "KR"
+    }
+  },
+  "provenanceAndSpecs": {
+    "creationDate": "N/A",
+    "medium": "Digital (Photoshop, InDesign)",
+    "artisticStyle": "Children's Book Illustration",
+    "dimensions": "Digital (variable resolution)",
+    "currentLocation": "Behance Portfolio",
+    "tools": [
+      "Photoshop",
+      "InDesign"
+    ]
+  },
+  "curatorsInsight": "A complete children's book project titled \"Camang and Friends,\" featuring 12 illustrations that tell a cohesive story. This represents the artist's most comprehensive narrative project, demonstrating both illustration and book design skills.",
+  "historicalNarrative": "The \"Camang and Friends\" children's book is a significant project in Eungshin Kim's portfolio, showcasing the full pipeline from character design through story illustration to publication-ready layout using Photoshop and InDesign.",
+  "genre": [
+    "Illustration",
+    "Graphic Design"
+  ],
+  "keywords": [
+    "artwork",
+    "book",
+    "children",
+    "Children's boook",
+    "ILLUSTRATION",
+    "product",
+    "story"
+  ],
+  "associatedMedia": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_001.jpg",
+      "position": 1,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 1"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_002.jpg",
+      "position": 2,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 2"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_003.jpg",
+      "position": 3,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 3"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_004.jpg",
+      "position": 4,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 4"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_005.jpg",
+      "position": 5,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 5"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_006.jpg",
+      "position": 6,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 6"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_007.jpg",
+      "position": 7,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 7"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_008.jpg",
+      "position": 8,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 8"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_009.jpg",
+      "position": 9,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 9"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_010.jpg",
+      "position": 10,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 10"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_011.jpg",
+      "position": 11,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 11"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "./image_012.jpg",
+      "position": 12,
+      "encodingFormat": "image/jpeg",
+      "name": "Children's book \"Camang and Friends\" - Image 12"
+    }
+  ],
+  "text": [],
+  "thumbnailUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/6c61c7112842991.601bf8975e7f1.jpg",
+  "provenance": {
+    "source": "Behance",
+    "profileUrl": "https://www.behance.net/eungshin",
+    "extractedDate": "2026-03-22T16:47:13.396Z",
+    "verifiedRecord": true,
+    "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
+  }
+}

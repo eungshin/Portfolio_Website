@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Eungshin Kim — Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -28,7 +28,8 @@
     </div>
     <!-- Project info panel (shows active card info) -->
     <div class="project-info" id="projectInfo">
-      <span class="project-info__number">01 / 12</span>
+      <span class="project-info__number">01 / 11</span>
+      <p class="project-info__date">—</p>
       <h2 class="project-info__title">Project Title</h2>
       <p class="project-info__style">Artistic Style</p>
       <p class="project-info__medium">Medium</p>
@@ -44,10 +45,7 @@
   <section id="about" class="section section--about hidden">
     <div class="about-container">
       <div class="about-image">
-        <div class="about-image__placeholder">
-          <!-- Profile image placeholder -->
-          <span>Profile Image</span>
-        </div>
+        <img class="about-image__photo" src="about/main.jpg" alt="Eungshin Kim" />
       </div>
       <div class="about-content">
         <span class="label">ABOUT</span>
@@ -88,12 +86,25 @@
       <div class="contact-links">
         <a href="https://www.behance.net/eungshin" target="_blank" class="contact-link">
           <span class="contact-link__icon">Be</span>
-          <span>Behance</span>
+          <span class="contact-link__label">Behance</span>
         </a>
-        <a href="mailto:contact@eungshin.com" class="contact-link">
+        <a href="https://www.instagram.com/eungshin.kim/" target="_blank" class="contact-link">
+          <span class="contact-link__icon">Ig</span>
+          <span class="contact-link__label">Instagram</span>
+        </a>
+        <button class="contact-link" id="emailBtn" type="button">
           <span class="contact-link__icon">@</span>
-          <span>Email</span>
-        </a>
+          <span class="contact-link__label">Email</span>
+        </button>
+      </div>
+
+      <!-- Email popup -->
+      <div class="email-popup" id="emailPopup" hidden>
+        <div class="email-popup__content">
+          <p class="email-popup__address">eungshin.k@gmail.com</p>
+          <button class="email-popup__copy" id="emailCopy">Copy to clipboard</button>
+          <button class="email-popup__close" id="emailClose">&times;</button>
+        </div>
       </div>
     </div>
   </section>
@@ -105,13 +116,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Agentation — visual feedback toolbar (dev only, remove before deploy) -->
-  <script src="https://unpkg.com/agentation@2.3.3/dist/index.js"></script>
-  <script>
-    if (window.Agentation) {
-      window.Agentation.init({ serverUrl: 'http://localhost:4747' });
-    }
-  </script>
 
 </body>
 </html>
