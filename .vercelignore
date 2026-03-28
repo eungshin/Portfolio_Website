@@ -1,0 +1,15 @@
+portfolio/
+_originals_backup/
+.uploads/
+.trash/
+.adr/
+.git/
+.env
+node_modules/
+optimize-images.js
+upload-to-cloudinary.js
+generate-project-data.js
+cloudinary-mapping.json
+art_website/
+화분+동물 시리즈/
+*.log

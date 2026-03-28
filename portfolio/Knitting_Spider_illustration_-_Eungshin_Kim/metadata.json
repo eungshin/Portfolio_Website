@@ -20,9 +20,9 @@
     }
   },
   "provenanceAndSpecs": {
-    "creationDate": "N/A",
+    "creationDate": "2019",
     "medium": "Digital Illustration",
-    "artisticStyle": "Character Illustration / Narrative Art",
+    "artisticStyle": "Character Illustration ",
     "dimensions": "Digital (variable resolution)",
     "currentLocation": "Behance Portfolio",
     "tools": [
@@ -89,5 +89,6 @@
     "extractedDate": "2026-03-22T16:46:34.893Z",
     "verifiedRecord": true,
     "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
-  }
+  },
+  "showThumbnailInGallery": true
 }

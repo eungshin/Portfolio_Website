@@ -20,7 +20,7 @@
     }
   },
   "provenanceAndSpecs": {
-    "creationDate": "N/A",
+    "creationDate": "2019",
     "medium": "Digital Illustration",
     "artisticStyle": "Illustration Series / Animal Art",
     "dimensions": "Digital (variable resolution)",
@@ -31,7 +31,7 @@
       "Painting"
     ]
   },
-  "curatorsInsight": "An extensive series depicting cats among flowerpots, combining the artist's love of animals with botanical elements. The 11-image series demonstrates consistent character design across multiple compositions.",
+  "curatorsInsight": "In 2019, a solo illustration exhibition was held featuring works centered on flora and fauna — including children's book illustrations and personal projects — created for audiences of all ages. The exhibition explored the theme \"It's Nice That You're Not Human,\" reflecting the perspective of a person who envies animals for not being human, celebrating the beauty and freedom found in the lives of other living creatures.",
   "historicalNarrative": "This project is one of Eungshin Kim's most prolific series, featuring cats interacting with flowerpots and plants. The work reflects themes of domesticity, nature, and the quiet companionship of pets—recurring motifs in the artist's body of work.",
   "genre": [
     "Illustration",
@@ -136,5 +136,6 @@
     "extractedDate": "2026-03-22T16:46:50.839Z",
     "verifiedRecord": true,
     "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
-  }
+  },
+  "showThumbnailInGallery": false
 }

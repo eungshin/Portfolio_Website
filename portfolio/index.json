@@ -22,113 +22,14 @@
   "hasPart": [
     {
       "@type": "VisualArtwork",
-      "name": "Children's book \"Camang and Friends\"",
-      "folder": "Camang_and_friends",
-      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
-      "artisticStyle": "Children's Book Illustration",
-      "medium": "Digital (Photoshop, InDesign)",
-      "creationDate": "N/A",
-      "insight": "A complete children's book project titled \"Camang and Friends,\" featuring 12 illustrations that tell a cohesive story. This represents the artist's most comprehensive narrative project, demonstrating both illustration and book design skills.",
-      "imageCount": 11
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Animals - a cat with flowerpots",
-      "folder": "Exhibition",
-      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
-      "artisticStyle": "Illustration Series / Animal Art",
-      "medium": "Digital Illustration",
-      "creationDate": "N/A",
-      "insight": "An extensive series depicting cats among flowerpots, combining the artist's love of animals with botanical elements. The 11-image series demonstrates consistent character design across multiple compositions.",
-      "imageCount": 7
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Art Brand poster_Rabbit&Snake",
-      "folder": "포스터작업",
-      "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
-      "artisticStyle": "Art Brand / Commercial Illustration",
-      "medium": "Digital (Mixed)",
-      "creationDate": "N/A",
-      "insight": "An art brand poster series featuring rabbit and snake characters, blending fine art sensibility with commercial design. The contrasting animal subjects create visual tension and narrative depth.",
-      "imageCount": 12
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Exchanging my talents for traveling in Ireland.",
-      "folder": "Ireland",
-      "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
-      "artisticStyle": "Travel Illustration / Documentary Art",
-      "medium": "Mixed Media (Digital and Traditional)",
-      "creationDate": "N/A",
-      "insight": "A travel illustration project documenting the artist's experience of exchanging creative talents for travel opportunities in Ireland. This project uniquely combines personal narrative with illustration.",
-      "imageCount": 7
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Knitting Spider illustration",
-      "folder": "Knitting_Spider_illustration_-_Eungshin_Kim",
-      "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
-      "artisticStyle": "Character Illustration / Narrative Art",
-      "medium": "Digital Illustration",
-      "creationDate": "N/A",
-      "insight": "An imaginative illustration of a knitting spider, transforming a typically feared creature into a charming, industrious character. The concept plays on the natural web-spinning ability of spiders reimagined as knitting.",
-      "imageCount": 2
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "pen drawing.",
-      "folder": "pen_drawing._-_Eungshin_Kim",
-      "url": "https://www.behance.net/gallery/118751763/pen-drawing",
-      "artisticStyle": "Traditional Drawing / Pen and Ink",
-      "medium": "Pen on Paper",
-      "creationDate": "N/A",
-      "insight": "A collection of pen drawings demonstrating the artist's foundational skills in traditional media. The raw, direct quality of pen work reveals confident linework and observational ability.",
-      "imageCount": 3
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Self-portrait 2019",
-      "folder": "Self-portrait_2019_-_Eungshin_Kim",
-      "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
-      "artisticStyle": "Portrait / Expressive Illustration",
-      "medium": "Mixed Media",
-      "creationDate": "N/A",
-      "insight": "A self-portrait from 2019 that offers an intimate glimpse into the artist's self-perception and artistic identity. Self-portraiture serves as both practice and personal expression.",
-      "imageCount": 3
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Blue Dog",
-      "folder": "파란개",
-      "url": "",
-      "artisticStyle": "Character Illustration",
-      "medium": "Digital Illustration",
-      "creationDate": "2021",
-      "insight": "A character study of a blue dog, exploring form and expression through a series of illustrations.",
-      "imageCount": 10
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Random Pots",
-      "folder": "random_pots",
-      "url": "",
-      "artisticStyle": "Product Illustration",
-      "medium": "Digital Illustration",
-      "creationDate": "2021",
-      "insight": "A playful exploration of ceramic pot designs with character and personality.",
-      "imageCount": 5
-    },
-    {
-      "@type": "VisualArtwork",
-      "name": "Flower Illustration",
+      "name": "BEING AS IT IS (Interactive Media Art Series)",
       "folder": "2025_flower",
       "url": "",
       "artisticStyle": "Botanical Illustration",
       "medium": "Digital Illustration",
       "creationDate": "2025",
-      "insight": "A collection of flower illustrations exploring form, color, and natural beauty.",
-      "imageCount": 15
+      "insight": "\"BEING AS IT IS\" — Interactive Media Art Series\nLaunched in 2025, this series marks the artist's transition from static generative imagery toward interactive media — a shift driven by the recognition that stillness alone could no longer fully express the project's core idea.\nRooted in Schopenhauer's concept of pure contemplation from The World as Will and Representation, the work explores a simple but profound truth: plants and animals exist without regret for the past or anxiety about the future. They do not seek to justify their presence — they simply are. Building on the generative art practice developed between 2021 and 2023, the artist now turns to AI and interactive media to give that presence motion, response, and breath.\nIn this series, audiences are invited to interact with nature rendered on screen. In doing so, the act of observing the natural world becomes something more — a moment of turning inward, and becoming aware of one's own existence in the present.\n",
+      "imageCount": 12
     },
     {
       "@type": "VisualArtwork",
@@ -138,9 +39,108 @@
       "artisticStyle": "Animation / Nature Art",
       "medium": "Digital Animation",
       "creationDate": "2025",
-      "insight": "An animated series bringing natural scenes to life through motion and color.",
+      "insight": "A natural extension of the artist's long-running exploration of plants and animals in harmony, this series revisits familiar subjects — creatures nestled within botanical forms, living quietly inside flowerpots — and gives them something new: movement.\nWith the arrival of AI-driven tools, the artist began experimenting with animating the illustrated worlds previously confined to static images. The same compositions that once existed as still drawings now breathe, shift, and respond — leaves tremble, animals stir, and the boundary between image and living thing becomes gently blurred. This series represents an early and intentional experiment, a test of how motion can deepen the work's central question: what does it look and feel like to simply exist, as nature does, in the present moment?\nRather than a finished body of work, these pieces are offered as an honest record of exploration — the artist's first steps into the expanding territory where hand-drawn sensibility meets the generative possibilities of AI media.",
       "imageCount": 5
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Art Brand poster_Rabbit&Snake",
+      "folder": "포스터작업",
+      "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
+      "artisticStyle": "Art Brand / Commercial Illustration",
+      "medium": "Digital (Mixed)",
+      "creationDate": "2022",
+      "insight": "A collection of illustrations created for the artist's personal illustration brand, \"Square Nature.\" Building on the earlier approach of combining flowerpots with flora and fauna, these works take a more modern direction — reimagined as stylish art pieces designed to decorate interior spaces. Each illustration blends natural subjects with a contemporary aesthetic, making them suitable for display as room décor.",
+      "imageCount": 12
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Random Pots",
+      "folder": "random_pots",
+      "url": "",
+      "artisticStyle": "Product Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "ON FLOWERPOTS — An Exhibition\nInspired by Schopenhauer's belief that plants and animals, unlike humans, live entirely in the present — unburdened by regret or anticipation — this exhibition places the humble flowerpot at its center. Where human desire distorts reality and generates suffering, a plant simply receives what it is given and grows. The artist, who once confessed to wishing she could become a tree in a quiet forest, invites viewers to rediscover that same stillness through the living objects we so often overlook on our windowsills and desks.\n\nThe 100 works on display were created using a custom Generative Art system, in which individual elements — pot, plant, and background — are algorithmically combined to produce unexpected, unrepeatable compositions. Drawing on the card-collection rarity pioneered by early NFT projects, each piece is wholly unique. Hidden among the 100 is a single work featuring Aerides japonicum (나도 풍란), a critically endangered wild orchid disappearing from Korea's natural landscape — a quiet reminder that even the smallest artificial nature can carry the weight of what we stand to lose.",
+      "imageCount": 10
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Blue Dog",
+      "folder": "파란개",
+      "url": "",
+      "artisticStyle": "Character Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "The children's book \"Blue Dog\" was inspired by the artist's childhood memories of a mischievous dog he once raised. The story follows a playful blue puppy who romps through every corner of the house, making a mess wherever it goes — a lighthearted tale of chaos, curiosity, and the endearing trouble that comes with a spirited pet.",
+      "imageCount": 10
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "pen drawing.",
+      "folder": "pen_drawing._-_Eungshin_Kim",
+      "url": "https://www.behance.net/gallery/118751763/pen-drawing",
+      "artisticStyle": "Traditional Drawing / Pen and Ink",
+      "medium": "Pen on Paper",
+      "creationDate": "2020",
+      "insight": "A collection of pen drawings exploring the intersection of the natural world — where flora and fauna intertwine in free, uninhibited compositions. Each piece pairs botanical forms with animal subjects, allowing the two to coexist, overlap, and respond to one another organically on the page. ",
+      "imageCount": 4
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Animals - a cat with flowerpots",
+      "folder": "Exhibition",
+      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
+      "artisticStyle": "Illustration Series / Animal Art",
+      "medium": "Digital Illustration",
+      "creationDate": "2019",
+      "insight": "In 2019, a solo illustration exhibition was held featuring works centered on flora and fauna — including children's book illustrations and personal projects — created for audiences of all ages. The exhibition explored the theme \"It's Nice That You're Not Human,\" reflecting the perspective of a person who envies animals for not being human, celebrating the beauty and freedom found in the lives of other living creatures.",
+      "imageCount": 6
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Knitting Spider illustration",
+      "folder": "Knitting_Spider_illustration_-_Eungshin_Kim",
+      "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
+      "artisticStyle": "Character Illustration ",
+      "medium": "Digital Illustration",
+      "creationDate": "2019",
+      "insight": "An imaginative illustration of a knitting spider, transforming a typically feared creature into a charming, industrious character. The concept plays on the natural web-spinning ability of spiders reimagined as knitting.",
+      "imageCount": 3
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Self-portrait 2019",
+      "folder": "Self-portrait_2019_-_Eungshin_Kim",
+      "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
+      "artisticStyle": "Portrait / Expressive Illustration",
+      "medium": "Mixed Media",
+      "creationDate": "2019",
+      "insight": "A self-portrait from 2019 that offers an intimate glimpse into the artist's self-perception and artistic identity. Self-portraiture serves as both practice and personal expression.",
+      "imageCount": 4
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Exchanging my talents for traveling in Ireland.",
+      "folder": "Ireland",
+      "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
+      "artisticStyle": "Travel Illustration / Documentary Art",
+      "medium": "Mixed Media (Digital and Traditional)",
+      "creationDate": "2017",
+      "insight": "DRAWING IRELAND PROJECT\nWhat began as a simple question — \"Can I exchange my artistic talents for accommodations while traveling Ireland?\" — grew into one of the most meaningful journeys of my life.\nInspired by HelpX, a platform connecting budget travelers with hosts in need of practical help, I reimagined the concept through an artistic lens. Rather than offering manual labor, I proposed something more personal: my drawings. To bring the idea to life, I built a dedicated website where hosts could learn about the project and apply to participate.\nThe response led me to three remarkable hosts across Ireland. I spent time at Gallic Kitchen, a beloved Irish restaurant in Abbeyleix; Fheoirfurniture, an intimate furniture design studio; and Camphill Grangemockler, a volunteer community dedicated to people with special needs. In each place, I created artwork in exchange for a roof, a meal, and the warmth of genuine human connection.\nWhat I brought home was more than a portfolio — it was a collection of nostalgic, irreplaceable memories shaped by the people who opened their doors to me.",
+      "imageCount": 7
+    },
+    {
+      "@type": "VisualArtwork",
+      "name": "Children's book \"Camang and Friends\"",
+      "folder": "Camang_and_friends",
+      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
+      "artisticStyle": "Children's Book Illustration",
+      "medium": "Digital (Photoshop, InDesign)",
+      "creationDate": "2017",
+      "insight": "\"Camang and Friends\" is a self-published children's book drawn from personal regret. While preparing for university, I became obsessed with admission to a prestigious institution and convinced myself that friendship was a distraction. I ignored calls, left messages unread, and shut out everyone close to me — only to find myself trapped in a loneliness far more painful than any academic pressure. This book translates that experience into a gentle metaphor: a small creature who leaves his companions behind, believing he must walk alone, only to learn that the journey without them is no journey at all. It is a quiet story about a truth I learned too late — that friendship is not a luxury, but a shelter from the most desperate kind of loneliness.\n\n\n\n\n",
+      "imageCount": 11
     }
   ],
-  "dateExtracted": "2026-03-26T11:10:51.598Z"
+  "dateExtracted": "2026-03-28T09:54:54.646Z"
 }

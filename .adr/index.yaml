@@ -1,0 +1,65 @@
+last_updated: "2026-03-27"
+records:
+  - id: adr-001
+    title: "Vanilla HTML/CSS/JS SPA 아키텍처 채택"
+    status: accepted
+    category: tech_stack
+    tags: [html, css, javascript, spa, gsap, pretendard]
+    date: "2026-03-23"
+    file: "adr-001-vanilla-spa-architecture.md"
+
+  - id: adr-002
+    title: "Express.js 백엔드 서버 채택"
+    status: accepted
+    category: tech_stack
+    tags: [express, nodejs, api, multer, sharp, server]
+    date: "2026-03-23"
+    file: "adr-002-express-backend.md"
+
+  - id: adr-003
+    title: "Schema.org 기반 포트폴리오 데이터 구조"
+    status: accepted
+    category: data
+    tags: [schema-org, json, metadata, ontology, visual-artwork]
+    date: "2026-03-22"
+    file: "adr-003-schema-org-data-structure.md"
+
+  - id: adr-004
+    title: "3D 휠 갤러리 UI 패턴"
+    status: accepted
+    category: ux
+    tags: [3d-wheel, gallery, gsap, css-transform, carousel]
+    date: "2026-03-23"
+    file: "adr-004-3d-wheel-gallery.md"
+
+  - id: adr-005
+    title: "소프트 삭제(Trash) 패턴"
+    status: accepted
+    category: architecture
+    tags: [soft-delete, trash, file-management, undo, safety]
+    date: "2026-03-25"
+    file: "adr-005-soft-delete-trash.md"
+
+  - id: adr-006
+    title: "포인터 이벤트 기반 드래그 정렬 채택"
+    status: accepted
+    category: ux
+    tags: [drag-and-drop, pointer-events, sortable, reorder]
+    date: "2026-03-26"
+    file: "adr-006-pointer-event-drag.md"
+
+  - id: adr-007
+    title: "Vercel + Cloudinary 배포 전략"
+    status: accepted
+    category: infrastructure
+    tags: [vercel, cloudinary, deployment, cdn, serverless, image-hosting]
+    date: "2026-03-26"
+    file: "adr-007-vercel-cloudinary-deployment.md"
+
+  - id: adr-008
+    title: "GoDaddy 도메인 + Vercel DNS 연결 (A 레코드 방식)"
+    status: accepted
+    category: infrastructure
+    tags: [domain, dns, godaddy, vercel, ssl, a-record, cname]
+    date: "2026-03-27"
+    file: "adr-008-godaddy-domain-vercel.md"

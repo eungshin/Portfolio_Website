@@ -9,6 +9,16 @@ const fs      = require('fs-extra');
 const multer  = require('multer');
 const sharp   = require('sharp');
 
+// Cloudinary URL mapping (loaded at startup, empty if no mapping file)
+let cloudinaryMapping = {};
+const MAPPING_FILE = path.join(__dirname, 'cloudinary-mapping.json');
+try {
+  if (fs.pathExistsSync(MAPPING_FILE)) {
+    cloudinaryMapping = fs.readJsonSync(MAPPING_FILE);
+    console.log(`Cloudinary mapping loaded: ${Object.keys(cloudinaryMapping).length} entries`);
+  }
+} catch { /* no mapping file — serve locally */ }
+
 const app  = express();
 const PORT = 3000;
 
@@ -33,7 +43,21 @@ const SKIP_FILES = new Set(['desktop.ini', 'readme.md', 'metadata.json', 'main -
 
 // ─── Middleware ──────────────────────────────────────────────────────────────
 app.use(express.json());
-app.use(express.static(__dirname));
+
+// Serve portfolio files with no caching & immediate fd release
+// This prevents Windows EBUSY when replacing files that are being served
+app.use('/portfolio', express.static(PORTFOLIO_DIR, {
+  etag: false,
+  lastModified: false,
+  maxAge: 0,
+  cacheControl: false,
+  immutable: false,
+}));
+
+// Serve other static files normally
+app.use(express.static(__dirname, {
+  index: 'index.html',
+}));
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
@@ -64,6 +88,7 @@ async function readMetadata(folder) {
       creationDate:  ps.creationDate || raw.creationDate || '',
       insight:       raw.curatorsInsight || raw.insight || '',
       url:           raw.url || '',
+      showThumbnailInGallery: raw.showThumbnailInGallery || false,
     };
   } catch {
     // Generate sensible defaults for folders without metadata
@@ -129,37 +154,101 @@ async function writeMetadata(folder, meta) {
   existing.provenanceAndSpecs.creationDate  = meta.creationDate;
   existing.curatorsInsight                  = meta.insight;
   if (meta.url) existing.url = meta.url;
+  if (meta.showThumbnailInGallery !== undefined) {
+    existing.showThumbnailInGallery = meta.showThumbnailInGallery;
+  }
 
   await fs.writeJson(metaPath, existing, { spaces: 2 });
 }
 
 /**
+/**
  * Safely replace a destination file with a source file.
- * On Windows, the destination may be locked by another process (static server,
- * sharp handle). This retries the unlink+rename up to 3 times with a short delay.
+ *
+ * Windows problem: Express static / sharp / OS thumbnail cache hold file
+ * descriptors open. All of fs.unlink, fs.rename(src,dest-that-is-open),
+ * fs.copy(...overwrite), and fs-extra.move throw EBUSY on Windows.
+ *
+ * Strategy:
+ * 1. If dest doesn't exist → simple rename.
+ * 2. If dest exists → try native rename first (works on some Windows configs).
+ * 3. If that fails with EBUSY → use `cmd /c move /Y` which calls MoveFileEx
+ *    with MOVEFILE_REPLACE_EXISTING at the Win32 level.
+ * 4. If even that fails → write to a unique sibling name as last resort.
  */
 async function safeReplace(src, dest) {
-  const maxRetries = 3;
-  const delay = 200; // ms
+  const nfs = require('fs').promises;
+  const { execSync } = require('child_process');
 
-  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+  const destExists = await fs.pathExists(dest);
+  if (!destExists) {
     try {
-      // Remove destination if it exists
-      if (await fs.pathExists(dest)) {
-        await fs.remove(dest);
-      }
-      // Move source into place
-      await fs.move(src, dest, { overwrite: true });
+      await nfs.rename(src, dest);
       return;
     } catch (err) {
-      if ((err.code === 'EBUSY' || err.code === 'EPERM') && attempt < maxRetries) {
-        console.warn(`safeReplace: ${err.code} on attempt ${attempt}, retrying in ${delay}ms...`);
-        await new Promise(r => setTimeout(r, delay * attempt));
-      } else {
-        throw err;
+      if (err.code === 'EXDEV') {
+        await nfs.copyFile(src, dest);
+        await nfs.unlink(src).catch(() => {});
+        return;
       }
+      throw err;
     }
   }
+
+  // Dest exists — try native rename first
+  try {
+    await nfs.rename(src, dest);
+    return;
+  } catch (err) {
+    if (err.code !== 'EBUSY' && err.code !== 'EPERM' && err.code !== 'EXDEV') {
+      throw err;
+    }
+  }
+
+  // Native rename failed — try Windows cmd move /Y
+  if (process.platform === 'win32') {
+    try {
+      const srcWin = path.resolve(src).replace(/\//g, '\\');
+      const destWin = path.resolve(dest).replace(/\//g, '\\');
+      execSync(`cmd /c move /Y "${srcWin}" "${destWin}"`, {
+        timeout: 5000,
+        windowsHide: true,
+        stdio: 'pipe',
+      });
+      return;
+    } catch (cmdErr) {
+      console.warn('safeReplace: cmd move /Y failed:', cmdErr.message);
+    }
+  }
+
+  // Cross-device or cmd failed — copy then remove source
+  try {
+    await nfs.copyFile(src, dest);
+    await nfs.unlink(src).catch(() => {});
+    return;
+  } catch (copyErr) {
+    if (copyErr.code !== 'EBUSY' && copyErr.code !== 'EPERM') {
+      throw copyErr;
+    }
+  }
+
+  // Absolute last resort: write alongside with a unique name
+  const parsed = path.parse(dest);
+  const altDest = path.join(parsed.dir, parsed.name + '_' + Date.now() + parsed.ext);
+  await nfs.rename(src, altDest);
+  console.warn(`safeReplace: couldn't replace ${path.basename(dest)}, saved as ${path.basename(altDest)}`);
+}
+/**
+ * Resolve a local media path to a Cloudinary URL if mapping exists.
+ * @param {string} localPath - e.g. "portfolio/Exhibition/image_001.jpg"
+ * @param {'thumbnail'|'gallery'|'detail'|'original'} variant - which size variant
+ * @returns {string} Cloudinary URL or original local path
+ */
+function resolveMediaUrl(localPath, variant = 'detail') {
+  if (!Object.keys(cloudinaryMapping).length) return localPath;
+  const entry = cloudinaryMapping[localPath];
+  if (!entry) return localPath;
+  return entry[variant] || entry.url || localPath;
 }
 
 /** Find the main.* thumbnail for a folder */
@@ -171,11 +260,13 @@ async function findThumbnail(folder) {
     const ext  = path.parse(f).ext.toLowerCase();
     return name === 'main' && (IMAGE_EXTS.has(ext) || VIDEO_EXTS.has(ext));
   });
-  return main ? `portfolio/${encodeURIComponent(folder)}/${main}` : '';
+  if (!main) return '';
+  const localPath = `portfolio/${encodeURIComponent(folder)}/${main}`;
+  return resolveMediaUrl(localPath, 'thumbnail');
 }
 
-/** List all media files in a project folder (excluding main.*) */
-async function listMedia(folder) {
+/** List all media files in a project folder (optionally including main.*) */
+async function listMedia(folder, includeMain = false) {
   const dir = path.join(PORTFOLIO_DIR, folder);
   const orderPath = path.join(dir, 'image_order.json');
   let entries;
@@ -189,14 +280,16 @@ async function listMedia(folder) {
   // Only consider files (skip directories like 'text/')
   const files = entries.filter(e => e.isFile()).map(e => e.name);
 
-  // Filter to media files, exclude main.* and system files
+  // Filter to media files, exclude system files
   let media = files.filter(f => {
     const ext  = path.extname(f).toLowerCase();
     const name = f.toLowerCase();
     if (SKIP_FILES.has(name)) return false;
-    if (path.parse(f).name.toLowerCase() === 'main') return false;
+    // Skip main.* unless includeMain is true
+    if (!includeMain && path.parse(f).name.toLowerCase() === 'main') return false;
     if (name === 'image_order.json') return false;
     if (f.endsWith('.tmp')) return false;
+    if (f.includes('.bak_')) return false;
     return MEDIA_EXTS.has(ext);
   });
 
@@ -218,11 +311,14 @@ async function listMedia(folder) {
     media = ordered;
   } catch { /* no custom order, use filesystem order */ }
 
-  return media.map(f => ({
-    filename: f,
-    path: `portfolio/${encodeURIComponent(folder)}/${encodeURIComponent(f)}`,
-    type: VIDEO_EXTS.has(path.extname(f).toLowerCase()) ? 'video' : 'image',
-  }));
+  return media.map(f => {
+    const localPath = `portfolio/${encodeURIComponent(folder)}/${encodeURIComponent(f)}`;
+    return {
+      filename: f,
+      path: resolveMediaUrl(localPath, 'detail'),
+      type: VIDEO_EXTS.has(path.extname(f).toLowerCase()) ? 'video' : 'image',
+    };
+  });
 }
 
 /** Scan all project folders and build full project list */
@@ -246,7 +342,7 @@ async function scanProjects() {
   for (const folder of orderedFolders) {
     const meta      = await readMetadata(folder);
     const thumbnail = await findThumbnail(folder);
-    const images    = await listMedia(folder);
+    const images    = await listMedia(folder, meta.showThumbnailInGallery);
 
     projects.push({
       folder,
@@ -547,6 +643,21 @@ async function start() {
       await fs.remove(path.join(uploadsDir, f)).catch(() => {});
     }
   } catch { /* .uploads may not exist */ }
+
+  // Clean up leftover .bak_ and .tmp files from previous safeReplace operations
+  try {
+    const entries = await fs.readdir(PORTFOLIO_DIR, { withFileTypes: true });
+    for (const entry of entries) {
+      if (!entry.isDirectory() || entry.name.startsWith('.')) continue;
+      const dirPath = path.join(PORTFOLIO_DIR, entry.name);
+      const files = await fs.readdir(dirPath);
+      for (const f of files) {
+        if (f.includes('.bak_') || (f.endsWith('.tmp') && !f.endsWith('.git.tmp'))) {
+          await fs.remove(path.join(dirPath, f)).catch(() => {});
+        }
+      }
+    }
+  } catch { /* non-critical cleanup */ }
 
   await regenerateIndex();
   app.listen(PORT, () => {

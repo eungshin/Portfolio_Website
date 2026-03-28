@@ -1,0 +1,568 @@
+{
+  "projects": [
+    {
+      "folder": "2025_flower",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/2025_flower/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "flower2.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/flower2?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "flower.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/flower?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "Screenshot 2026-03-22 211706.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/Screenshot%202026-03-22%20211706?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "Screenshot 2026-03-22 185557.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/Screenshot%202026-03-22%20185557?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "tile_0_2.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/tile_0_2?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "tile_0_3.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/tile_0_3?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "tile_3_3.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/tile_3_3?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "_norm_grok-image-f9b05453-7727-4b58-b4c5-15592124f97b.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/_norm_grok-image-f9b05453-7727-4b58-b4c5-15592124f97b?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "Gemini_Generated_Image_s3n6fzs3n6fzs3n6.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/Gemini_Generated_Image_s3n6fzs3n6fzs3n6?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "grok-image-620e008a-ed18-472c-836b-a2ddd438af18 (1).png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/grok-image-620e008a-ed18-472c-836b-a2ddd438af18%20(1)?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "Gemini_Generated_Image_ue8k7kue8k7kue8k.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/Gemini_Generated_Image_ue8k7kue8k7kue8k?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "Gemini_Generated_Image_voh25rvoh25rvoh2.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_flower/Gemini_Generated_Image_voh25rvoh25rvoh2?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Flower Illustration",
+      "artisticStyle": "Botanical Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2025",
+      "insight": "\"BEING AS IT IS\" — Interactive Media Art Series\nLaunched in 2025, this series marks the artist's transition from static generative imagery toward interactive media — a shift driven by the recognition that stillness alone could no longer fully express the project's core idea.\nRooted in Schopenhauer's concept of pure contemplation from The World as Will and Representation, the work explores a simple but profound truth: plants and animals exist without regret for the past or anxiety about the future. They do not seek to justify their presence — they simply are. Building on the generative art practice developed between 2021 and 2023, the artist now turns to AI and interactive media to give that presence motion, response, and breath.\nIn this series, audiences are invited to interact with nature rendered on screen. In doing so, the act of observing the natural world becomes something more — a moment of turning inward, and becoming aware of one's own existence in the present.\n",
+      "url": "",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "2025_animated",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/2025_animated/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "grok-video-16bb5fec-ae12-4270-a7fb-dfb79cd56e86.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_animated/grok-video-16bb5fec-ae12-4270-a7fb-dfb79cd56e86?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "grok-video-a8238b8a-3351-41e2-b57b-b0ed47785c71.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_animated/grok-video-a8238b8a-3351-41e2-b57b-b0ed47785c71?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "grok-video-245da68f-71ca-412a-96b1-4ed99410683c.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_animated/grok-video-245da68f-71ca-412a-96b1-4ed99410683c?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "grok-video-cd3f1504-2da3-408f-b4ec-4818e547ca9b.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_animated/grok-video-cd3f1504-2da3-408f-b4ec-4818e547ca9b?_a=BAMAOGWQ0",
+          "type": "video"
+        },
+        {
+          "filename": "grok-video-df2d4ada-5eea-4743-8efa-2a919eef6621.mp4",
+          "path": "https://res.cloudinary.com/dfdednbow/video/upload/f_auto,q_auto,w_1600/v1/portfolio/2025_animated/grok-video-df2d4ada-5eea-4743-8efa-2a919eef6621?_a=BAMAOGWQ0",
+          "type": "video"
+        }
+      ],
+      "name": "Animated Nature Series",
+      "artisticStyle": "Animation / Nature Art",
+      "medium": "Digital Animation",
+      "creationDate": "2025",
+      "insight": "A natural extension of the artist's long-running exploration of plants and animals in harmony, this series revisits familiar subjects — creatures nestled within botanical forms, living quietly inside flowerpots — and gives them something new: movement.\nWith the arrival of AI-driven tools, the artist began experimenting with animating the illustrated worlds previously confined to static images. The same compositions that once existed as still drawings now breathe, shift, and respond — leaves tremble, animals stir, and the boundary between image and living thing becomes gently blurred. This series represents an early and intentional experiment, a test of how motion can deepen the work's central question: what does it look and feel like to simply exist, as nature does, in the present moment?\nRather than a finished body of work, these pieces are offered as an honest record of exploration — the artist's first steps into the expanding territory where hand-drawn sensibility meets the generative possibilities of AI media.",
+      "url": "",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "포스터작업",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "자기소개.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_001.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/image_001?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "SNAKE.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/SNAKE?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "쥐새끼&포스터.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/v1774617263/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/%EC%A5%90%EC%83%88%EB%81%BC_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg",
+          "type": "image"
+        },
+        {
+          "filename": "elephant.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/elephant?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_005.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/image_005?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "20210915_165534.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/20210915_165534?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "2E9A3774.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/2E9A3774?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "20210915_170311.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/20210915_170311?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "2E9A3747.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/2E9A3747?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_002.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%9E%91%EC%97%85/image_002?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Art Brand poster_Rabbit&Snake",
+      "artisticStyle": "Art Brand / Commercial Illustration",
+      "medium": "Digital (Mixed)",
+      "creationDate": "2022",
+      "insight": "A collection of illustrations created for the artist's personal illustration brand, \"Square Nature.\" Building on the earlier approach of combining flowerpots with flora and fauna, these works take a more modern direction — reimagined as stylish art pieces designed to decorate interior spaces. Each illustration blends natural subjects with a contemporary aesthetic, making them suitable for display as room décor.",
+      "url": "https://www.behance.net/gallery/153594701/Art-Brand-poster_Rabbit-Snake",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "random_pots",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/random_pots/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "main.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/main?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "íë§¤.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/%C3%AD%C2%8C%C2%90%C3%AB%C2%A7%C2%A4?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "1.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/1?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "2.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/2?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "65debd880acf8142eefd5276d0e7acda.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/65debd880acf8142eefd5276d0e7acda?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "7210f7fb2045af97d3d8b4962e9b5df9.jpeg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/7210f7fb2045af97d3d8b4962e9b5df9?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "ab7260006b9d633b9feca9149af25f46.jpeg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/ab7260006b9d633b9feca9149af25f46?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "decd17e3eb1bd59ab0da4d6224049a70.jpeg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/decd17e3eb1bd59ab0da4d6224049a70?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "e429aafb7ebfbbfda0bcbdbdf001495a.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/e429aafb7ebfbbfda0bcbdbdf001495a?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "ff257175ec56ee348a6778df1ca09061.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/random_pots/ff257175ec56ee348a6778df1ca09061?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Random Pots",
+      "artisticStyle": "Product Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "ON FLOWERPOTS — An Exhibition\nInspired by Schopenhauer's belief that plants and animals, unlike humans, live entirely in the present — unburdened by regret or anticipation — this exhibition places the humble flowerpot at its center. Where human desire distorts reality and generates suffering, a plant simply receives what it is given and grows. The artist, who once confessed to wishing she could become a tree in a quiet forest, invites viewers to rediscover that same stillness through the living objects we so often overlook on our windowsills and desks.\n\nThe 100 works on display were created using a custom Generative Art system, in which individual elements — pot, plant, and background — are algorithmically combined to produce unexpected, unrepeatable compositions. Drawing on the card-collection rarity pioneered by early NFT projects, each piece is wholly unique. Hidden among the 100 is a single work featuring Aerides japonicum (나도 풍란), a critically endangered wild orchid disappearing from Korea's natural landscape — a quiet reminder that even the smallest artificial nature can carry the weight of what we stand to lose.",
+      "url": "",
+      "showThumbnailInGallery": true
+    },
+    {
+      "folder": "파란개",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "1.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/1?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "10.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/10?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "11.webp",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/11?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "13.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/13?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "14.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/14?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "15.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/15?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "16.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/16?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "17.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/17?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "25.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/25?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "5.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/%ED%8C%8C%EB%9E%80%EA%B0%9C/5?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Blue Dog",
+      "artisticStyle": "Character Illustration",
+      "medium": "Digital Illustration",
+      "creationDate": "2021",
+      "insight": "The children's book \"Blue Dog\" was inspired by the artist's childhood memories of a mischievous dog he once raised. The story follows a playful blue puppy who romps through every corner of the house, making a mess wherever it goes — a lighthearted tale of chaos, curiosity, and the endearing trouble that comes with a spirited pet.",
+      "url": "",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "pen_drawing._-_Eungshin_Kim",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/pen_drawing._-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "main.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/pen_drawing._-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_002.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/pen_drawing._-_Eungshin_Kim/image_002?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_003.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/pen_drawing._-_Eungshin_Kim/image_003?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/pen_drawing._-_Eungshin_Kim/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "pen drawing.",
+      "artisticStyle": "Traditional Drawing / Pen and Ink",
+      "medium": "Pen on Paper",
+      "creationDate": "2020",
+      "insight": "A collection of pen drawings exploring the intersection of the natural world — where flora and fauna intertwine in free, uninhibited compositions. Each piece pairs botanical forms with animal subjects, allowing the two to coexist, overlap, and respond to one another organically on the page. ",
+      "url": "https://www.behance.net/gallery/118751763/pen-drawing",
+      "showThumbnailInGallery": true
+    },
+    {
+      "folder": "Exhibition",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/Exhibition/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "image_001.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/image_001?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_006.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/image_006?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_003.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/image_003?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "고양이 (1).jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/%EA%B3%A0%EC%96%91%EC%9D%B4%20(1)?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "고양이.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/%EA%B3%A0%EC%96%91%EC%9D%B4?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "바다사자.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Exhibition/%EB%B0%94%EB%8B%A4%EC%82%AC%EC%9E%90?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Animals - a cat with flowerpots",
+      "artisticStyle": "Illustration Series / Animal Art",
+      "medium": "Digital Illustration",
+      "creationDate": "2019",
+      "insight": "In 2019, a solo illustration exhibition was held featuring works centered on flora and fauna — including children's book illustrations and personal projects — created for audiences of all ages. The exhibition explored the theme \"It's Nice That You're Not Human,\" reflecting the perspective of a person who envies animals for not being human, celebrating the beauty and freedom found in the lives of other living creatures.",
+      "url": "https://www.behance.net/gallery/113381175/Animals-a-cat-with-flowerpots",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "Knitting_Spider_illustration_-_Eungshin_Kim",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/Knitting_Spider_illustration_-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "main.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Knitting_Spider_illustration_-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_001.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Knitting_Spider_illustration_-_Eungshin_Kim/image_001?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Knitting_Spider_illustration_-_Eungshin_Kim/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Knitting Spider illustration",
+      "artisticStyle": "Character Illustration ",
+      "medium": "Digital Illustration",
+      "creationDate": "2019",
+      "insight": "An imaginative illustration of a knitting spider, transforming a typically feared creature into a charming, industrious character. The concept plays on the natural web-spinning ability of spiders reimagined as knitting.",
+      "url": "https://www.behance.net/gallery/113430167/Knitting-Spider-illustration",
+      "showThumbnailInGallery": true
+    },
+    {
+      "folder": "Self-portrait_2019_-_Eungshin_Kim",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/Self-portrait_2019_-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "main.JPG",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Self-portrait_2019_-_Eungshin_Kim/main?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Self-portrait_2019_-_Eungshin_Kim/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_003.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Self-portrait_2019_-_Eungshin_Kim/image_003?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_002.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Self-portrait_2019_-_Eungshin_Kim/image_002?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Self-portrait 2019",
+      "artisticStyle": "Portrait / Expressive Illustration",
+      "medium": "Mixed Media",
+      "creationDate": "2019",
+      "insight": "A self-portrait from 2019 that offers an intimate glimpse into the artist's self-perception and artistic identity. Self-portraiture serves as both practice and personal expression.",
+      "url": "https://www.behance.net/gallery/113434309/Self-portrait-2019",
+      "showThumbnailInGallery": true
+    },
+    {
+      "folder": "Ireland",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/Ireland/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "image_001.png",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_001?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_003.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_003?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_005.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_005?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_006.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_006?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_007.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_007?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_008.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Ireland/image_008?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Exchanging my talents for traveling in Ireland.",
+      "artisticStyle": "Travel Illustration / Documentary Art",
+      "medium": "Mixed Media (Digital and Traditional)",
+      "creationDate": "2017",
+      "insight": "DRAWING IRELAND PROJECT\nWhat began as a simple question — \"Can I exchange my artistic talents for accommodations while traveling Ireland?\" — grew into one of the most meaningful journeys of my life.\nInspired by HelpX, a platform connecting budget travelers with hosts in need of practical help, I reimagined the concept through an artistic lens. Rather than offering manual labor, I proposed something more personal: my drawings. To bring the idea to life, I built a dedicated website where hosts could learn about the project and apply to participate.\nThe response led me to three remarkable hosts across Ireland. I spent time at Gallic Kitchen, a beloved Irish restaurant in Abbeyleix; Fheoirfurniture, an intimate furniture design studio; and Camphill Grangemockler, a volunteer community dedicated to people with special needs. In each place, I created artwork in exchange for a roof, a meal, and the warmth of genuine human connection.\nWhat I brought home was more than a portfolio — it was a collection of nostalgic, irreplaceable memories shaped by the people who opened their doors to me.",
+      "url": "https://www.behance.net/gallery/112683413/Exchanging-my-talents-for-traveling-in-Ireland",
+      "showThumbnailInGallery": false
+    },
+    {
+      "folder": "Camang_and_friends",
+      "thumbnail": "https://res.cloudinary.com/dfdednbow/image/upload/c_fit,f_auto,h_600,q_auto:good,w_800/v1/portfolio/Camang_and_friends/main?_a=BAMAOGWQ0",
+      "images": [
+        {
+          "filename": "image_001.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_001?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_004.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_004?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_002.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_002?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_003.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_003?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_005.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_005?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_006.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_006?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_007.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_007?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_008.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_008?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_009.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_009?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_011.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_011?_a=BAMAOGWQ0",
+          "type": "image"
+        },
+        {
+          "filename": "image_012.jpg",
+          "path": "https://res.cloudinary.com/dfdednbow/image/upload/f_auto,q_auto,w_1600/v1/portfolio/Camang_and_friends/image_012?_a=BAMAOGWQ0",
+          "type": "image"
+        }
+      ],
+      "name": "Children's book \"Camang and Friends\"",
+      "artisticStyle": "Children's Book Illustration",
+      "medium": "Digital (Photoshop, InDesign)",
+      "creationDate": "2017",
+      "insight": "\"Camang and Friends\" is a self-published children's book drawn from personal regret. While preparing for university, I became obsessed with admission to a prestigious institution and convinced myself that friendship was a distraction. I ignored calls, left messages unread, and shut out everyone close to me — only to find myself trapped in a loneliness far more painful than any academic pressure. This book translates that experience into a gentle metaphor: a small creature who leaves his companions behind, believing he must walk alone, only to learn that the journey without them is no journey at all. It is a quiet story about a truth I learned too late — that friendship is not a luxury, but a shelter from the most desperate kind of loneliness.\n\n\n\n\n",
+      "url": "https://www.behance.net/gallery/112842991/Childrens-book-Camang-and-Friends",
+      "showThumbnailInGallery": false
+    }
+  ],
+  "cardCount": 11
+}

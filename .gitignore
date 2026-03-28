@@ -5,3 +5,10 @@ node_modules/
 *.log
 art_website/
 portfolio/2025_flower/flower.gif
+.env
+_originals_backup/
+cloudinary-mapping.json
+optimize-images.js
+upload-to-cloudinary.js
+
+.vercel

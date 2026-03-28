@@ -20,7 +20,7 @@
     }
   },
   "provenanceAndSpecs": {
-    "creationDate": "N/A",
+    "creationDate": "2022",
     "medium": "Digital (Mixed)",
     "artisticStyle": "Art Brand / Commercial Illustration",
     "dimensions": "Digital (variable resolution)",
@@ -30,7 +30,7 @@
       "Product Design"
     ]
   },
-  "curatorsInsight": "An art brand poster series featuring rabbit and snake characters, blending fine art sensibility with commercial design. The contrasting animal subjects create visual tension and narrative depth.",
+  "curatorsInsight": "A collection of illustrations created for the artist's personal illustration brand, \"Square Nature.\" Building on the earlier approach of combining flowerpots with flora and fauna, these works take a more modern direction — reimagined as stylish art pieces designed to decorate interior spaces. Each illustration blends natural subjects with a contemporary aesthetic, making them suitable for display as room décor.",
   "historicalNarrative": "This series represents the intersection of Eungshin Kim's illustration practice with brand design, using animal symbolism to create memorable commercial artwork.",
   "genre": [
     "Graphic Design",
@@ -99,5 +99,6 @@
     "extractedDate": "2026-03-22T16:45:44.685Z",
     "verifiedRecord": true,
     "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
-  }
+  },
+  "showThumbnailInGallery": false
 }

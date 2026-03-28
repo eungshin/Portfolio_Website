@@ -96,13 +96,12 @@
     projects.forEach((project, idx) => {
       const item = document.createElement('div');
       item.className = 'dash-project-item';
-      item.draggable = true;
       item.dataset.folder = project.folder;
       item.dataset.index  = idx;
 
       item.innerHTML = `
         <span class="dash-project-drag">&#9776;</span>
-        <img class="dash-project-thumb" src="${project.thumbnail}" alt="" />
+        <img class="dash-project-thumb" src="${project.thumbnail}" alt="" draggable="false" />
         <span class="dash-project-name">${escapeHtml(project.name)}</span>
         <span class="dash-project-folder">${escapeHtml(project.folder)}</span>
         <div class="dash-project-actions">
@@ -111,15 +110,11 @@
         </div>
       `;
 
-      // Drag events for project reordering
-      item.addEventListener('dragstart', onProjectDragStart);
-      item.addEventListener('dragover',  onProjectDragOver);
-      item.addEventListener('dragleave', onProjectDragLeave);
-      item.addEventListener('drop',      onProjectDrop);
-      item.addEventListener('dragend',   onProjectDragEnd);
-
       list.appendChild(item);
     });
+
+    // Attach pointer-based sortable
+    initProjectSortable(list);
   }
 
   function renderEditor(project) {
@@ -139,6 +134,10 @@
     const thumbImg = dom.thumbImg();
     thumbImg.src = project.thumbnail || '';
     thumbImg.style.display = project.thumbnail ? 'block' : 'none';
+
+    // Show thumbnail in gallery checkbox
+    const showThumbCheckbox = $('#showThumbInGallery');
+    showThumbCheckbox.checked = project.showThumbnailInGallery || false;
 
     // Image grid
     renderImageGrid(project);
@@ -193,44 +192,131 @@
     dom.dirtyBadge().hidden = true;
   }
 
-  // ─── Project Drag & Drop ───────────────────────────────────────────────────
-  let dragProjectIdx = null;
+  // ─── Project Sortable (pointer-event based) ─────────────────────────────
+  let _projSortState = null;
 
-  function onProjectDragStart(e) {
-    dragProjectIdx = parseInt(e.currentTarget.dataset.index);
-    e.currentTarget.classList.add('dragging');
-    e.dataTransfer.effectAllowed = 'move';
-    e.dataTransfer.setData('text/plain', dragProjectIdx);
+  function initProjectSortable(list) {
+    list.addEventListener('pointerdown', onProjSortDown);
   }
 
-  function onProjectDragOver(e) {
+  function onProjSortDown(e) {
+    if (e.button !== 0) return;
+    // Only drag from the drag handle or the item itself, not from buttons
+    if (e.target.closest('button')) return;
+
+    const item = e.target.closest('.dash-project-item');
+    if (!item) return;
+
     e.preventDefault();
-    e.dataTransfer.dropEffect = 'move';
-    e.currentTarget.classList.add('drag-over');
+
+    const list = item.parentElement;
+    const rect = item.getBoundingClientRect();
+
+    // Create floating ghost
+    const clone = item.cloneNode(true);
+    clone.classList.add('dash-project-item--ghost');
+    clone.style.position = 'fixed';
+    clone.style.width = rect.width + 'px';
+    clone.style.height = rect.height + 'px';
+    clone.style.left = rect.left + 'px';
+    clone.style.top = rect.top + 'px';
+    clone.style.zIndex = '9999';
+    clone.style.pointerEvents = 'none';
+    clone.style.opacity = '0.9';
+    clone.style.transition = 'none';
+    clone.style.boxShadow = '0 8px 24px rgba(0,0,0,0.18)';
+    document.body.appendChild(clone);
+
+    item.classList.add('dragging');
+
+    const fromIdx = parseInt(item.dataset.index);
+    const offsetX = e.clientX - rect.left;
+    const offsetY = e.clientY - rect.top;
+
+    _projSortState = {
+      list,
+      item,
+      clone,
+      fromIdx,
+      currentIdx: fromIdx,
+      offsetX,
+      offsetY,
+      moved: false,
+    };
+
+    document.addEventListener('pointermove', onProjSortMove);
+    document.addEventListener('pointerup', onProjSortUp);
+    document.addEventListener('pointercancel', onProjSortUp);
   }
 
-  function onProjectDragLeave(e) {
-    e.currentTarget.classList.remove('drag-over');
+  function onProjSortMove(e) {
+    if (!_projSortState) return;
+    const s = _projSortState;
+
+    s.clone.style.left = (e.clientX - s.offsetX) + 'px';
+    s.clone.style.top  = (e.clientY - s.offsetY) + 'px';
+    s.moved = true;
+
+    // Find which item the pointer is over
+    const items = Array.from(s.list.querySelectorAll('.dash-project-item'));
+    items.forEach(el => el.classList.remove('drag-over'));
+
+    for (const el of items) {
+      if (el === s.item) continue;
+      const r = el.getBoundingClientRect();
+      const midY = r.top + r.height / 2;
+      if (e.clientY >= r.top && e.clientY <= r.bottom) {
+        el.classList.add('drag-over');
+        s.currentIdx = parseInt(el.dataset.index);
+        break;
+      }
+    }
   }
 
-  function onProjectDrop(e) {
-    e.preventDefault();
-    e.currentTarget.classList.remove('drag-over');
-    const fromIdx = dragProjectIdx;
-    const toIdx   = parseInt(e.currentTarget.dataset.index);
+  function onProjSortUp(e) {
+    document.removeEventListener('pointermove', onProjSortMove);
+    document.removeEventListener('pointerup', onProjSortUp);
+    document.removeEventListener('pointercancel', onProjSortUp);
 
-    if (fromIdx !== null && fromIdx !== toIdx) {
-      const [moved] = projects.splice(fromIdx, 1);
-      projects.splice(toIdx, 0, moved);
+    if (!_projSortState) return;
+    const s = _projSortState;
+    _projSortState = null;
+
+    s.clone.remove();
+    s.item.classList.remove('dragging');
+    s.list.querySelectorAll('.dash-project-item').forEach(el => el.classList.remove('drag-over'));
+
+    if (s.moved && s.fromIdx !== s.currentIdx) {
+      const [moved] = projects.splice(s.fromIdx, 1);
+      projects.splice(s.currentIdx, 0, moved);
       markDirty();
       renderProjectList();
     }
   }
 
-  function onProjectDragEnd(e) {
-    e.currentTarget.classList.remove('dragging');
-    $$('.dash-project-item').forEach(el => el.classList.remove('drag-over'));
-    dragProjectIdx = null;
+  // ─── Sort Projects by Year ─────────────────────────────────────────────
+  function sortProjectsByYear(direction) {
+    const parseYear = (dateStr) => {
+      if (!dateStr || dateStr === 'N/A' || dateStr === '') return null;
+      const match = dateStr.match(/(\d{4})/);
+      return match ? parseInt(match[1], 10) : null;
+    };
+
+    projects.sort((a, b) => {
+      const yearA = parseYear(a.creationDate);
+      const yearB = parseYear(b.creationDate);
+
+      // Items without a year always go to the bottom
+      if (yearA === null && yearB === null) return 0;
+      if (yearA === null) return 1;
+      if (yearB === null) return -1;
+
+      if (yearA === yearB) return 0;
+      return direction === 'asc' ? yearA - yearB : yearB - yearA;
+    });
+
+    markDirty();
+    renderProjectList();
   }
 
   // ─── Image Sortable (pointer-event based) ───────────────────────────────
@@ -385,6 +471,7 @@
             medium:        project.medium,
             creationDate:  project.creationDate,
             insight:       project.insight,
+            showThumbnailInGallery: project.showThumbnailInGallery || false,
           }),
         });
 
@@ -549,6 +636,10 @@
       markDirty();
     });
 
+    // Sort by year
+    $('#sortAscBtn').addEventListener('click', () => sortProjectsByYear('asc'));
+    $('#sortDescBtn').addEventListener('click', () => sortProjectsByYear('desc'));
+
     // Add project
     dom.addProjectBtn().addEventListener('click', () => {
       dom.newProjectModal().hidden = false;
@@ -614,6 +705,46 @@
       if (e.target.files.length) {
         uploadThumbnail(e.target.files[0]);
         e.target.value = '';
+      }
+    });
+
+    // Show thumbnail in gallery toggle
+    $('#showThumbInGallery').addEventListener('change', async (e) => {
+      if (!editingProject) return;
+      const project = projects.find(p => p.folder === editingProject);
+      if (!project) return;
+      project.showThumbnailInGallery = e.target.checked;
+      markDirty(editingProject);
+      // Reload images from server to include/exclude thumbnail
+      try {
+        const data = await api('/api/projects');
+        const fresh = data.projects.find(p => p.folder === editingProject);
+        // We can't reload from server because the setting isn't saved yet.
+        // Instead, toggle the thumbnail in/out of the local images array.
+        if (e.target.checked) {
+          // Add thumbnail to images if not already there
+          const thumbFile = project.thumbnail ? project.thumbnail.split('/').pop() : null;
+          if (thumbFile) {
+            const decoded = decodeURIComponent(thumbFile);
+            const already = project.images.some(img => img.filename === decoded);
+            if (!already) {
+              project.images.unshift({
+                filename: decoded,
+                path: project.thumbnail,
+                type: 'image',
+              });
+            }
+          }
+        } else {
+          // Remove thumbnail from images
+          project.images = project.images.filter(img => {
+            const baseName = img.filename.split('.')[0].toLowerCase();
+            return baseName !== 'main';
+          });
+        }
+        renderImageGrid(project);
+      } catch (err) {
+        showToast('Error toggling thumbnail: ' + err.message, 'error');
       }
     });
 

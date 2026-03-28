@@ -34,7 +34,11 @@
   <section class="dash-section">
     <div class="dash-section__header">
       <h2 class="dash-section__title">Projects</h2>
-      <button class="dash-btn dash-btn--secondary" id="addProjectBtn">+ Add Project</button>
+      <div class="dash-section__actions">
+        <button class="dash-btn dash-btn--ghost dash-btn--sm" id="sortAscBtn" title="Sort by year (oldest first)">Year ↑</button>
+        <button class="dash-btn dash-btn--ghost dash-btn--sm" id="sortDescBtn" title="Sort by year (newest first)">Year ↓</button>
+        <button class="dash-btn dash-btn--secondary" id="addProjectBtn">+ Add Project</button>
+      </div>
     </div>
     <p class="dash-hint">Drag projects to reorder. Click Edit to manage images and metadata.</p>
     <div class="dash-project-list" id="projectList">
@@ -87,10 +91,16 @@
       <div class="dash-thumb-preview" id="thumbPreview">
         <img id="thumbImg" src="" alt="Thumbnail" />
       </div>
-      <label class="dash-btn dash-btn--secondary dash-upload-label">
-        Change Thumbnail
-        <input type="file" id="thumbUpload" accept="image/*" hidden />
-      </label>
+      <div class="dash-thumb-actions">
+        <label class="dash-btn dash-btn--secondary dash-upload-label">
+          Change Thumbnail
+          <input type="file" id="thumbUpload" accept="image/*" hidden />
+        </label>
+        <label class="dash-checkbox-label">
+          <input type="checkbox" id="showThumbInGallery" />
+          Show thumbnail in project images
+        </label>
+      </div>
     </div>
 
     <!-- Image Grid -->

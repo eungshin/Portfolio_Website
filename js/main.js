@@ -256,7 +256,7 @@
       if (img.type === 'video') {
         return `
           <div class="detail-image-wrap">
-            <video src="${img.path}" controls playsinline muted loop></video>
+            <video src="${img.path}" autoplay playsinline muted loop></video>
           </div>
         `;
       }
@@ -346,6 +346,11 @@
     const imagesCol = document.getElementById('detailImagesCol');
     if (imagesCol) imagesCol.scrollTop = 0;
 
+    // Autoplay all videos in the detail view
+    detailEl.querySelectorAll('video').forEach(v => {
+      v.play().catch(() => {}); // ignore autoplay rejection
+    });
+
     const galleryEl = document.getElementById('gallery');
     gsap.set(galleryEl, { clearProps: 'all' });
     galleryEl.classList.add('hidden');
@@ -378,6 +383,13 @@
   function closeDetailThen(callback) {
     const detailEl = document.getElementById('detail');
     document.body.classList.remove('detail-open');
+
+    // Pause all videos when leaving detail view
+    detailEl.querySelectorAll('video').forEach(v => {
+      v.pause();
+      v.currentTime = 0;
+    });
+
     gsap.to(detailEl, {
       opacity: 0,
       duration: 0.3,

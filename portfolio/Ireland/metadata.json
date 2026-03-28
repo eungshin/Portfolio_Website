@@ -20,7 +20,7 @@
     }
   },
   "provenanceAndSpecs": {
-    "creationDate": "N/A",
+    "creationDate": "2017",
     "medium": "Mixed Media (Digital and Traditional)",
     "artisticStyle": "Travel Illustration / Documentary Art",
     "dimensions": "Digital (variable resolution)",
@@ -30,7 +30,7 @@
       "Advertising"
     ]
   },
-  "curatorsInsight": "A travel illustration project documenting the artist's experience of exchanging creative talents for travel opportunities in Ireland. This project uniquely combines personal narrative with illustration.",
+  "curatorsInsight": "DRAWING IRELAND PROJECT\nWhat began as a simple question — \"Can I exchange my artistic talents for accommodations while traveling Ireland?\" — grew into one of the most meaningful journeys of my life.\nInspired by HelpX, a platform connecting budget travelers with hosts in need of practical help, I reimagined the concept through an artistic lens. Rather than offering manual labor, I proposed something more personal: my drawings. To bring the idea to life, I built a dedicated website where hosts could learn about the project and apply to participate.\nThe response led me to three remarkable hosts across Ireland. I spent time at Gallic Kitchen, a beloved Irish restaurant in Abbeyleix; Fheoirfurniture, an intimate furniture design studio; and Camphill Grangemockler, a volunteer community dedicated to people with special needs. In each place, I created artwork in exchange for a roof, a meal, and the warmth of genuine human connection.\nWhat I brought home was more than a portfolio — it was a collection of nostalgic, irreplaceable memories shaped by the people who opened their doors to me.",
   "historicalNarrative": "This project documents Eungshin Kim's real-life experience of using artistic skills as a form of currency while traveling in Ireland. It represents the intersection of art and life, demonstrating how creative talents can open doors to cultural exchange and adventure.",
   "genre": [
     "Graphic Design",
@@ -114,5 +114,6 @@
     "extractedDate": "2026-03-22T16:47:25.151Z",
     "verifiedRecord": true,
     "archiveNote": "This work is part of Eungshin Kim's digital portfolio. Data synchronized from Behance creative platform."
-  }
+  },
+  "showThumbnailInGallery": false
 }
