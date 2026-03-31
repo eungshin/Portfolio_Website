@@ -1004,13 +1004,21 @@ a {
    14. RESPONSIVE — MOBILE (max-width: 768px)
    ------------------------------------------------------------ */
 @media (max-width: 768px) {
-  /* Nav */
+  /* Nav — ensure visibility over gallery images */
   #nav {
     padding: var(--space-2) var(--space-3);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 70%, transparent 100%);
+  }
+
+  .nav-logo {
+    font-size: 1.25rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
 
   .nav-link {
     margin-left: var(--space-2);
+    color: var(--on-surface);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
 
   /* Wheel gallery */
