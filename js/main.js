@@ -150,7 +150,7 @@
     if (currentSection !== 'gallery') return;
     e.preventDefault();
 
-    const dir = e.deltaY > 0 ? 1 : -1;
+    const dir = e.deltaY > 0 ? -1 : 1;
     spinWheel(dir);
 
     const hint = document.querySelector('.scroll-hint');
@@ -173,7 +173,7 @@
     e.preventDefault();
     const delta = touchStartY - e.touches[0].clientY;
     if (Math.abs(delta) < SWIPE_THRESHOLD) return;
-    const dir = delta > 0 ? 1 : -1;
+    const dir = delta > 0 ? -1 : 1;
     spinWheel(dir);
     touchStartY = null;
   }
@@ -191,10 +191,10 @@
     if (currentSection !== 'gallery') return;
     if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
       e.preventDefault();
-      spinWheel(1);
+      spinWheel(-1);
     } else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
       e.preventDefault();
-      spinWheel(-1);
+      spinWheel(1);
     }
   }
 
